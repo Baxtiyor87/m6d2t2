@@ -1,4 +1,4 @@
-package com.example.untitled7;
+package com.example.m6d2t2;
 
 import io.flutter.embedding.android.FlutterActivity;
 

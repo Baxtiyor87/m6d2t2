@@ -12,7 +12,7 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Flutter Module 6, D2, Task 1'),
+        title: const Text('Flutter Module 6, D2, Task 2'),
       ),
       body: Container(
         padding: const EdgeInsets.all(15),
@@ -39,19 +39,9 @@ class _HomePageState extends State<HomePage> {
                   child: MaterialButton(
                     color: Colors.red,
                     onPressed: (){
-                      context.setLocale(const Locale('ru','RU'));
+                      context.setLocale(const Locale('ko','KOR'));
                     },
-                    child: const Text("Russian"),
-                  ),
-                ),
-                const SizedBox(width: 5,),
-                Expanded(
-                  child: MaterialButton(
-                    color: Colors.blue,
-                    onPressed: (){
-                      context.setLocale(const Locale('uz','UZ'));
-                    },
-                    child: const Text("Uzbek"),
+                    child: const Text("Korean"),
                   ),
                 ),
                 const SizedBox(width: 5,),
@@ -59,9 +49,9 @@ class _HomePageState extends State<HomePage> {
                   child: MaterialButton(
                     color: Colors.orange,
                     onPressed: (){
-                      context.setLocale(const Locale('fr','FRA'));
+                      context.setLocale(const Locale('ja','JPN'));
                     },
-                    child: const Text("French"),
+                    child: const Text("Japanese"),
                   ),
                 ),
               ],
