@@ -21,7 +21,7 @@ class _HomePageState extends State<HomePage> {
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
               const SizedBox(width: 20,),
-              const Text("txt_welcome", style: TextStyle(fontSize: 22),).tr(),
+              const Text("txt_flutter", style: TextStyle(fontSize: 22),).tr(),
 
             Row(
               children: [
